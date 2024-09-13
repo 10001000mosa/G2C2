@@ -1,0 +1,3 @@
+flask
+gunicorn
+# Add other direct dependencies here

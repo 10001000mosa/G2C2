@@ -1,0 +1,76 @@
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #c94d28;
+}
+
+header {
+    background-color: #ffffff;
+    color: #c94d28;
+    text-align: center;
+    padding: 16px;
+}
+
+.logo {
+    width: 800px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+
+.upload-form {
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 20px 40px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    border-radius: 12px; /* Adjust the radius for rounded corners */
+    color: #fff; /* White text color */
+    background-color: #e74c3c; /* Red background color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make it inline-block */
+}
+
+.red-box {
+    background-color: #D2232A; /* Red background */
+    color: white;              /* White text */
+    font-family: 'Lora', serif; /* Example of a similar font */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+
+footer {
+    background-color: #ffffff;
+    color: #c94d28;
+    text-align: center;
+    padding: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
