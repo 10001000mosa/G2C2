@@ -1,3 +1,4 @@
 flask
 gunicorn
+pandas
 # Add other direct dependencies here

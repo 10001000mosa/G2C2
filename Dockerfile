@@ -23,4 +23,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Run gunicorn to serve the Flask app
-CMD ["gunicorn", "-b", "0.0.0.0:8000", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:8000", "--timeout", "120", "app:app"]
